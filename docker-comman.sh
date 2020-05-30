@@ -1,5 +1,3 @@
-## Comandos docker
-
 docker run -d -v www:/var/www/html --name=wp --link=db_wp \
 			--env WORDPRESS_DB_HOST=db_wp:3306   \
 			--env WORDPRESS_DB_USER=wordpress      \
